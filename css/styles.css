@@ -672,7 +672,7 @@ pointer-events: none;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 528px;
-/* height: 581px; */
+height: 581px;
 padding: 40px;
     background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -798,9 +798,8 @@ margin-bottom: 12px;
 
 .modal-form-field-desc{
     font-weight: 400;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 14px;
     letter-spacing: 0.03em;
     color: #757575;
 display: block;
@@ -949,6 +948,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .send-email-footer{
+    width: 200px;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -963,12 +963,11 @@ color: rgba(255, 255, 255, 0.6);
     border-radius: 4px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 52px;
-    padding-right: 52px;
     border: none;
     letter-spacing: 0.06em;
     align-self: center;
     margin-left: 12px;
+    justify-content: center;
 }
 .modal-footer-form{
     display: flex;
